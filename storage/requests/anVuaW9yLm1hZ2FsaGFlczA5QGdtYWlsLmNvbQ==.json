@@ -1,0 +1,32 @@
+{
+    "cafeApi": {
+        "limit": 1,
+        "requests": 1,
+        "time": 1715714767
+    },
+    "cafeApiAuth": {
+        "limit": 3,
+        "requests": 1,
+        "time": 1679341827
+    },
+    "usersUpdate": {
+        "limit": 5,
+        "requests": 1,
+        "time": 1679342916
+    },
+    "usersPhoto": {
+        "limit": 3,
+        "requests": 2,
+        "time": 1679403309
+    },
+    "invoicesCreate": {
+        "limit": 5,
+        "requests": 1,
+        "time": 1679491771
+    },
+    "walletsCreate": {
+        "limit": 5,
+        "requests": 2,
+        "time": 1679514750
+    }
+}
