@@ -25,37 +25,3 @@ Pré-requisitos
 Servidor web com suporte a PHP (Apache ou Nginx recomendado).
 Banco de dados MySQL.
 Composer instalado para gerenciar dependências.
-Instalação
-Clone o repositório:
-
-bash
-Copiar código
-git clone https://github.com/seu-usuario/cafecontrol.git
-cd cafecontrol
-Instale as dependências:
-
-bash
-Copiar código
-composer install
-Configure o arquivo .env com suas credenciais de banco de dados:
-
-env
-Copiar código
-DB_HOST=localhost
-DB_NAME=cafecontrol
-DB_USER=seu_usuario
-DB_PASS=sua_senha
-Importe o banco de dados:
-
-Localize o arquivo cafecontrol.sql na raiz do projeto e importe-o para o MySQL.
-Inicie o servidor:
-
-bash
-Copiar código
-php -S localhost:8000
-Acesse a aplicação:
-
-Área do usuário: http://localhost:8000
-Painel administrativo: http://localhost:8000/admin
-📝 Licença
-Este projeto foi desenvolvido com fins educacionais e está sob a licença MIT. Sinta-se à vontade para usá-lo e adaptá-lo para projetos pessoais ou comerciais.
